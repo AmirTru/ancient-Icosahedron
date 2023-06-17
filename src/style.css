@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+:root {
+  font-family: "Abril Fatface", cursive;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+  outline: none;
+
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgb(8, 163, 166) 0%,
+    rgba(79, 166, 167, 0.849) 8%,
+    rgba(61, 79, 94, 0.885) 40%,
+    rgb(17, 19, 23)
+  );
+}
+
+h1 {
+  margin-block-start: 0rem;
+  font-size: 2.5em;
+}
+h2 {
+  margin-block-start: 0rem;
+}
+
+.line {
+  background-color: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+
+.t {
+  top: 5%;
+  height: 0.1rem;
+  width: 100vw;
+}
+.b {
+  bottom: 5%;
+  height: 0.1rem;
+  width: 100vw;
+}
+.l {
+  left: 5%;
+  height: 100vh;
+  width: 0.1rem;
+}
+.r {
+  right: 5%;
+  height: 100vh;
+  width: 0.1rem;
+}
+.made-by {
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  font-size: 0.8em;
+  text-align: left;
+  display: inline-flex;
+  align-items: flex-end;
+  color: rgba(255, 255, 255, 0.5);
+  gap: 0.5rem;
+}
+
+.social-icons {
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+  text-align: left;
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.fab {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.fab:hover {
+  color: rgba(255, 255, 255, 0.8);
+  scale: 1.1;
+}
